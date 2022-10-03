@@ -1,0 +1,16 @@
+.header{
+    
+}
+
+.header__name{
+    color:var(--color-primary);
+}
+
+.header__title{
+    color:hsl(34.74,9.84%,62.16%);
+}
+
+.header__divider{
+    border-bottom:2px dotted var(--color-primary);
+    margin-top:2rem;
+}
