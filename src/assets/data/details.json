@@ -1,0 +1,32 @@
+{
+   "name": "EVANS HONU",
+   "title": "CS Grad Student at Arizona State University",
+   "about": "I am a Computer Science PhD student at Arizona State University’s REACT lab where, under the guidance of Professor Stephanie Gil, I am exploring an application of data from different senors (laser, camera) extracted from robot platforms for addressing SLAM. I am also working on using the underlying communication network based on WiFi, as a sensing device with application in robotics. As part of this research I have had hands-on experience on framworks like, ROS and GTSAM, robotics platforms like TURTLEBOT3 and CREATE2 as well as Opti-Track Motive. I am also a freelance consulatant for SENSAGRATE where I advise the development team on system architecture and framework for building applications using data from Lidar and Camera. I was an intern at 10 Imaging Inc during summer 2018 where I developed an application that identifies symbols (language, mathematical) extracted from HD visual input.",
+   "socialLinks": {
+      "github": "github.com",
+      "linkedIn": "linkedin.com"
+   },
+   "projects": [
+      {
+         "field": "Deep Learning, Artificial Intelligence and Robotics:",
+         "names": [
+            "I have implemented some deep networks like Autoencoders using Keras/ Tensorflow, a numpy implementation of Multi-class neural networks and analysed reinforcement learning algorithm using openAI gym’s MsPacman environment.",
+            "For my robotics project I implemented an IEEE paper that deals with Formation fight control for a multi - UAV system using fourth order dynamics and Model Predictive Control and developed a system that enables indoor localization of robots using WiFi"
+         ]
+      },
+      {
+         "field": "Machine Learning",
+         "names": [
+            "These include recommender systems for datasets like YELP and IMDB,MovieLense etc and implementation of generic supervised and semi-supervised machine learning algorithms like linear and logistic regression, K Nearest Neighbours, K-means etc.",
+            "Used augmented reality to extract usage behavior of users while playing with an application that teaches Java language. The goal was to enable the application to self-adapt for each user."
+         ]
+      },
+      {
+         "field": "Systems and Security",
+         "names": [
+            "Projects include linux systems calls, kernel programs and an application of a distributed database optimized for queries targeted towards geolocation.",
+            "Building a complete framwork in AWS elastic cloud that optimizes virtual machine usage based on generated requests and performs object detection on camera images collected from RPi cameras mounted on ground robots."
+         ]
+      }
+   ]
+}
