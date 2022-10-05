@@ -15,11 +15,14 @@
          ],
          "projectLinks":[{
             "summary":"Hello i was able to do an amazing job with my amazing skills. Click the link to view",
-            "title":"Online Translator"
+            "title":"Online Translator",
+            "imageUrl":"https://bit.ly/3RzpuSN"
+            
          },
          {
             "summary":"Hello i was able to do an amazing job with my amazing skills. Click the link to view",
-            "title":"Online Translator"
+            "title":"Online Translator",
+            "imageUrl":"https://bit.ly/3e7KMcv"
          }
       ]
       },
@@ -31,11 +34,13 @@
          ],
           "projectLinks":[{
             "summary":"Hello i was able to do an amazing job with my amazing skills. Click the link to view",
-            "title":"Online Translator"
+            "title":"Online Translator",
+            "imageUrl":"https://bit.ly/3RzpuSN"
          },
          {
             "summary":"Hello i was able to do an amazing job with my amazing skills. Click the link to view",
-            "title":"Online Translator"
+            "title":"Online Translator",
+            "imageUrl":"https://bit.ly/3RzpuSN"
          }
          
       ]
@@ -44,15 +49,17 @@
          "field": "Systems and Security",
          "names": [
             "Projects include linux systems calls, kernel programs and an application of a distributed database optimized for queries targeted towards geolocation.",
-            "Building a complete framwork in AWS elastic cloud that optimizes virtual machine usage based on generated requests and performs object detection on camera images collected from RPi cameras mounted on ground robots."
+            "Building a complete framwork in AWS elastic cloud that optimizes virtual machine usage based on generated requests and performs object detection on camera imageUrls collected from RPi cameras mounted on ground robots."
          ],
           "projectLinks":[{
             "summary":"Hello i was able to do an amazing job with my amazing skills. Click the link to view",
-            "title":"Online Translator"
+            "title":"Online Translator",
+            "imageUrl":"https://bit.ly/3RzpuSN"
          },
          {
             "summary":"Hello i was able to do an amazing job with my amazing skills. Click the link to view",
-            "title":"Online Translator"
+            "title":"Online Translator",
+            "imageUrl":"https://bit.ly/3RzpuSN"
          }
          
       ]

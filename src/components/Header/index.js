@@ -42,7 +42,9 @@ function Header() {
       </div>
       <div className="header__divider"></div>
       <p className="header__about mt-5">{about}</p>
-      <p className="color-body">You can checkout the details of my projects below</p>
+      <p className="color-body">
+        You can checkout the details of my projects below
+      </p>
     </header>
   );
 }
