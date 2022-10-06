@@ -1,9 +1,22 @@
+:root {
+  --color-primary:rgb(184, 233, 90);
+  --color-title:rgb(168, 160, 149);
+  --color-body:#eaeaea;
+  --color-hover:rgba(184, 233, 90, .5);
+  --color-background:rgb(33,37,41);
+}
+
+
 *,*::afer,*::before{
   padding:0;
   box-sizing:border-box;
   margin:0;
 }
 
-:root {
-  --color-primary:hsl(80.56,76.47%,63.33%);
+
+body{
+  font-size:62.5%;
+  height:100vh;
+  background-color:var(--color-background) !important;
 }
+

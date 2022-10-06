@@ -1,11 +1,12 @@
 import './App.css';
-import Header from "./components/Header";
+import {Header, Projects} from "./components";
+
 
 function App() {
   return (
-    <div className="bg-dark vh-100">
+    <div className="container">
       <Header/>
-      Evans honu
+      <Projects/>
     </div>
   );
 }
