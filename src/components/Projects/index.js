@@ -35,10 +35,7 @@ function Projects() {
           allowfullscreen
         ></iframe>
         <div
-          style={{
-            color: "rgb(168, 160, 149)",
-            fontSize: "1.5rem",
-          }}
+          className="header__about"
         >
           {summary}
         </div>
