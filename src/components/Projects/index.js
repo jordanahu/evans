@@ -2,14 +2,49 @@ import React from 'react'
 import Project from "./Project";
 import data from "../../assets/data/details.json";
 import ProjectLinks from "./ProjectLinks";
+import "./projects.css";
 
 
 function Projects() {
-    const {projects} = data;
+    const {projects,videos:[{videoUrl, title, summary}] } = data;
+
+    const titleStyle = {
+      textAlign: "center",
+      color: "rgb(184, 233, 90)",
+      fontSize: "2rem",
+      fontWeight: "bold",
+      textTransform: "uppercase",
+      textDecoration:"underline"
+    };
 
   return (
     <div>
-      {projects.map(({ field, names, projectLinks:linksInfo }, index) => (
+      <p style={{ ...titleStyle }}>{title}</p>
+
+      <div class="Projects__video">
+        <iframe
+          style={{
+            borderRadius: "10px",
+            maxWidth: "100%",
+          }}
+          height="320rem"
+          width="500rem"
+          src={videoUrl}
+          title={title}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div
+          style={{
+            color: "rgb(168, 160, 149)",
+            fontSize: "1.5rem",
+          }}
+        >
+          {summary}
+        </div>
+      </div>
+
+      {projects.map(({ field, names, projectLinks: linksInfo }, index) => (
         <React.Fragment key={index}>
           <Project fieldTitle={field} fieldDetails={names} />
           <ProjectLinks projectLinks={linksInfo} />

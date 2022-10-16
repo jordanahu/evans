@@ -1,7 +1,7 @@
 import "./header.css"
 import { BsLinkedin, BsGithub, BsCloudDownload } from "react-icons/bs";
 import data from "../../assets/data/details.json";
-
+import resume from "../../assets/data/evansResume.pdf";
 
 function Header() {
   const {name, title,about, socialLinks} = data;
@@ -31,8 +31,9 @@ function Header() {
           <BsGithub /> <span>| Github</span>
         </a>
         <a
-          href="https://github.com"
+          href={resume}
           target="_blank"
+          download
           rel="noreferrer"
           role="button"
           className="btn btn-lg text-white color--border mb-2"

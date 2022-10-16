@@ -1,68 +1,39 @@
 {
-   "name": "EVANS HONU",
-   "title": "CS Grad Student at Arizona State University",
-   "about": "I am a Computer Science PhD student at Arizona State University’s REACT lab where, under the guidance of Professor Stephanie Gil, I am exploring an application of data from different senors (laser, camera) extracted from robot platforms for addressing SLAM. I am also working on using the underlying communication network based on WiFi, as a sensing device with application in robotics. As part of this research I have had hands-on experience on framworks like, ROS and GTSAM, robotics platforms like TURTLEBOT3 and CREATE2 as well as Opti-Track Motive. I am also a freelance consulatant for SENSAGRATE where I advise the development team on system architecture and framework for building applications using data from Lidar and Camera. I was an intern at 10 Imaging Inc during summer 2018 where I developed an application that identifies symbols (language, mathematical) extracted from HD visual input.",
-   "socialLinks": {
-      "github": "github.com",
-      "linkedIn": "https://www.linkedin.com/in/evans-honu-04b0a716b"
-   },
-   "projects": [
-      {
-         "field": "Deep Learning, Artificial Intelligence and Robotics:",
-         "names": [
-            "I have implemented some deep networks like Autoencoders using Keras/ Tensorflow, a numpy implementation of Multi-class neural networks and analysed reinforcement learning algorithm using openAI gym’s MsPacman environment.",
-            "For my robotics project I implemented an IEEE paper that deals with Formation fight control for a multi - UAV system using fourth order dynamics and Model Predictive Control and developed a system that enables indoor localization of robots using WiFi"
-         ],
-         "projectLinks":[{
-            "summary":"Hello i was able to do an amazing job with my amazing skills. Click the link to view",
-            "title":"Online Translator",
-            "imageUrl":"https://bit.ly/3RzpuSN"
-            
-         },
+  "name": "EVANS HONU",
+  "title": "CS Grad Student at Arizona State University",
+  "about": "Evans Honu holds a Bachelor of Science degree in Physics from the Kwame Nkrumah University of Science and Technology where under the guidance of Prof. Reuben Tamakloe, Dr. Michael Edem Donkor and Prof Sylvester Kojo Danuor, worked on designing custom circuit boards for a wide variety of applications particularly for seismic and analyzer devices. Evans has worked as a Research and Teaching Assistant teaching courses in Circuit theory, Electricity and Magnetism and Geometrical Optics and Waves. He has experience in analog and digital circuit design, STM32 and ESP32 microcontrollers, Altium and Kicad printed circuit board design software, fusion 360, raspberry pi, etc. He has had hands-on experience on frameworks like, ROS and High-Speed PCB, robotics platforms like ROS noetic. He also has experience in C++, python and the C programming languages. He is currently a freelance hardware design engineer consultant for 3Farmate Robotics Limited, where he develops control engines from scratch for their robots(www.3farmate.com).",
+  "socialLinks": {
+    "github": "github.com",
+    "linkedIn": "https://www.linkedin.com/in/evans-honu-04b0a716b"
+  },
+  "videos": [
+    {
+      "videoUrl": "https://www.youtube.com/embed/1SJPDaMBAi0",
+      "title": "FAMA robot(Agricultural Robot)",
+      "summary":"An autonomous AI powered solar robot for seed planting and fertilizer application without any human intervention. Features 1. GPS Autonomous Outdoor Navigation 2. Up to 6hrs continuous work time 3. web interface for remote control and more. I designed the engine for the robot, The robot digs the ground and then plants the seed and also cover the soil. I was very happy to be a part of the team and leading the hardware design."
+    }
+  ],
+  "projects": [
+    {
+      "field": "Deep Learning, Artificial Intelligence and Robotics:",
+      "names": [
+        "I have implemented some deep networks like Autoencoders using Keras/ Tensorflow, a numpy implementation of Multi-class neural networks and analysed reinforcement learning algorithm using openAI gym’s MsPacman environment.",
+        "For my robotics project I implemented an IEEE paper that deals with Formation fight control for a multi - UAV system using fourth order dynamics and Model Predictive Control and developed a system that enables indoor localization of robots using WiFi"
+      ],
+      "projectLinks": [
+        {
+          "summary": "Hello i was able to do an amazing job with my amazing skills. Click the link to view",
+          "title": "OXYGEN Analyzer for Nitrogen Plant"
+        },
+        {
+          "summary": "As part of the project (Nitrogen Plant) the students needed an oxygen analyzer, which helps ensure that the nitrogen gas from the nitrogen plant has a very low level of oxygen. I developed an oxygen analyzer and programmed it. The device can measure oxygen concentration from 21- 900 ppm which can be compared to the commercially available ones. There is a buzzer and an organic led screen that display and alert the user a threshold concentration set in code. Above is a picture of the device I designed.",
+          "title": "SOLENOID Gas Valve Controller Board."
+        },
          {
-            "summary":"Hello i was able to do an amazing job with my amazing skills. Click the link to view",
-            "title":"Online Translator",
-            "imageUrl":"https://bit.ly/3e7KMcv"
+           "summary":"We are currently at eastern region (Ghana) were we are running pilot programs on our autonomousrobot prototype for seed planting and spraying, and the progress so far has been great!!!!!!!!. All the hardware sections was handled by me. The robot’s autonomy is fully powered by ROS(Robot Operating System).",
+           "title": "SOLENOID Gas Valve Controller Board."
          }
       ]
-      },
-      {
-         "field": "Machine Learning",
-         "names": [
-            "These include recommender systems for datasets like YELP and IMDB,MovieLense etc and implementation of generic supervised and semi-supervised machine learning algorithms like linear and logistic regression, K Nearest Neighbours, K-means etc.",
-            "Used augmented reality to extract usage behavior of users while playing with an application that teaches Java language. The goal was to enable the application to self-adapt for each user."
-         ],
-          "projectLinks":[{
-            "summary":"Hello i was able to do an amazing job with my amazing skills. Click the link to view",
-            "title":"Online Translator",
-            "imageUrl":"https://bit.ly/3RzpuSN"
-         },
-         {
-            "summary":"Hello i was able to do an amazing job with my amazing skills. Click the link to view",
-            "title":"Online Translator",
-            "imageUrl":"https://bit.ly/3RzpuSN"
-         }
-         
-      ]
-      },
-      {
-         "field": "Systems and Security",
-         "names": [
-            "Projects include linux systems calls, kernel programs and an application of a distributed database optimized for queries targeted towards geolocation.",
-            "Building a complete framwork in AWS elastic cloud that optimizes virtual machine usage based on generated requests and performs object detection on camera imageUrls collected from RPi cameras mounted on ground robots."
-         ],
-          "projectLinks":[{
-            "summary":"Hello i was able to do an amazing job with my amazing skills. Click the link to view",
-            "title":"Online Translator",
-            "imageUrl":"https://bit.ly/3RzpuSN"
-         },
-         {
-            "summary":"Hello i was able to do an amazing job with my amazing skills. Click the link to view",
-            "title":"Online Translator",
-            "imageUrl":"https://bit.ly/3RzpuSN"
-         }
-         
-      ]
-      }
-   ]
+    }
+  ]
 }
