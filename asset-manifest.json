@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.334b359c.css",
+    "main.js": "/static/js/main.2792c05d.js",
+    "static/js/787.c0fc3205.chunk.js": "/static/js/787.c0fc3205.chunk.js",
+    "static/media/evans-device2.jpg": "/static/media/evans-device2.374789b683051e33bd58.jpg",
+    "static/media/evans-work.jpg": "/static/media/evans-work.2f0e701f4608ba859aad.jpg",
+    "static/media/evans-device.jpg": "/static/media/evans-device.25c74025f6647798be46.jpg",
+    "static/media/evansResume.pdf": "/static/media/evansResume.99469bbebbc26af95c7d.pdf",
+    "index.html": "/index.html",
+    "main.334b359c.css.map": "/static/css/main.334b359c.css.map",
+    "main.2792c05d.js.map": "/static/js/main.2792c05d.js.map",
+    "787.c0fc3205.chunk.js.map": "/static/js/787.c0fc3205.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.334b359c.css",
+    "static/js/main.2792c05d.js"
+  ]
+}
