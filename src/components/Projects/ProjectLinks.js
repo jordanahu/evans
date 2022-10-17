@@ -4,9 +4,9 @@ import Collapse from "react-bootstrap/Collapse";
 import {BsLink45Deg} from "react-icons/bs";
 import Card from "react-bootstrap/Card";
 import "./projectLinks.css";
-import image_1 from "../../assets/images/evans-device.jpg";
-import image_2 from "../../assets/images/evans-device2.jpg";
-import image_3 from "../../assets/images/evans-work.jpg";
+import image_1 from "assets/images/evans-device.jpg";
+import image_2 from "assets/images/evans-device2.jpg";
+import image_3 from "assets/images/evans-work.jpg";
 
 export default function ProjectLinks({projectLinks}) {
   const [open, setOpen] = useState(false);

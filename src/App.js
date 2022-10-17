@@ -1,5 +1,5 @@
 import './App.css';
-import {Header, Projects} from "./components";
+import {Header, Projects} from "components";
 
 
 function App() {

@@ -1,6 +1,6 @@
 import React from 'react'
 import Project from "./Project";
-import data from "../../assets/data/details.json";
+import data from "assets/data/details.json";
 import ProjectLinks from "./ProjectLinks";
 import "./projects.css";
 

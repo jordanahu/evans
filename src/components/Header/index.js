@@ -1,7 +1,7 @@
 import "./header.css"
 import { BsLinkedin, BsGithub, BsCloudDownload } from "react-icons/bs";
-import data from "../../assets/data/details.json";
-import resume from "../../assets/data/evansResume.pdf";
+import data from "assets/data/details.json";
+import resume from "assets/data/evansResume.pdf";
 
 function Header() {
   const {name, title,about, socialLinks} = data;
