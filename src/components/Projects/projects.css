@@ -2,5 +2,12 @@
 .Projects__video{
     display:grid;
     grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap:.5rem;
+    grid-gap:2rem;
+}
+
+
+.images{
+    display:flex;
+    flex-wrap:wrap;
+
 }

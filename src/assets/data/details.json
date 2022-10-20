@@ -15,26 +15,21 @@
   ],
   "projects": [
     {
-      "field": "",
-      "names": [],
-      "projectLinks": [
-        {
-          "summary": "Hello i was able to do an amazing job with my amazing skills. Click the link to view",
-          "title": "OXYGEN Analyzer for Nitrogen Plant"
-        },
-        {
-          "summary": "Second image of previous project",
-          "title": "OXYGEN Analyzer for Nitrogen Plant"
-        },
-        {
-          "summary": "As part of the project (Nitrogen Plant) the students needed an oxygen analyzer, which helps ensure that the nitrogen gas from the nitrogen plant has a very low level of oxygen. I developed an oxygen analyzer and programmed it. The device can measure oxygen concentration from 21- 900 ppm which can be compared to the commercially available ones. There is a buzzer and an organic led screen that display and alert the user a threshold concentration set in code. Above is a picture of the device I designed.",
-          "title": "SOLENOID Gas Valve Controller Board."
-        },
-        {
-          "summary": "We are currently at eastern region (Ghana) were we are running pilot programs on our autonomousrobot prototype for seed planting and spraying, and the progress so far has been great!!!!!!!!. All the hardware sections was handled by me. The robot’s autonomy is fully powered by ROS(Robot Operating System).",
-          "title": "SOLENOID Gas Valve Controller Board."
-        }
-      ]
+      "summary": "As part of the project (Nitrogen Plant) the students needed an oxygen analyzer, helps ensure that the nitrogen gas from the nitrogen plant has a very low level of oxygen. I develop an oxygen analyzer and programmed it. My device can measure oxygen concentration from 21- 900 ppm which can be compared to the commercially available ones. There is a buzzer and an organic led screen that display and alert the user a threshold concentration set in code. Below is a picture of the device I designed.",
+      "title": "OXYGEN Analyzer for Nitrogen Plant",
+      "containsMore":true
+    },
+    {
+      "summary": "I designed a custom circuit board for biomedical students working on nitrogen plant. My board is responsible for the opening and close of a solenoid gas valve for the passage of nitrogen gas. The hardware was program from scratch using C and C++. Solenoid gas valve operate by translating electrical signals received from a microcontroller to open or close a valve. This then controls the flow of gas through the circuit, which in turn enhances the functionality of the Nitrogen plant. The was selected among best exhibited project.",
+      "title": "SOLENOID Gas Valve Controller Board."
+    },
+    {
+      "summary": "We are currently at eastern region (Ghana) were we are running pilot programs on our autonomous robot prototype for seed planting and spraying, and the progress so far has been great!!!!!!!!. All the hardware sections was handled by me. The robot’s autonomy is fully powered by ROS(Robot Operating System).",
+      "title": "We are running pilot programs on the FAMA robot"
+    },
+    {
+      "summary":"The four stepper four servo control board was my first board I designed without troubleshooting. I am so elated to announce it. Immediately I supplied power to the board, the system turns ON by pressing the ON/OFF button. The heart of it is an Arduino Mega microcontroller board. The board works when a HIGH is sent to a D flip-flop which interns trigger a relay and switches the entire system ON. Specifications:Max input voltage – 12VDrives 4 servos – 6V ( Has onboard voltage regulator ).Drives 4 steppers- 12V. Files needed for the fabrication can be found here. ( https://github.com/Evanshonu )",
+      "title":"Stepper and Servo  Control Board."
     }
   ]
 }
